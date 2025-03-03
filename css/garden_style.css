@@ -1,0 +1,76 @@
+body{
+    padding:0;
+    margin:0;
+
+  }
+.sky{
+    width: 100vw;
+    height:280px;
+    position:relative;
+    padding:0;
+    margin:0;
+}
+.grass{
+    width: 100vw;
+    height:calc(100vh - 280px);
+    position:relative;
+    padding:0;
+    margin:0;
+}
+
+.sun{
+    width: 100px;
+    height: 100px;
+    border-radius:50px;
+    position:absolute;
+    left:10px;
+    top:10px;
+}
+
+/* flower style */
+.flower{
+    padding:0;
+    margin:0;
+    position:absolute;
+}
+.petal{
+    padding:0;
+    margin:0;
+    position:absolute;
+    border-style:solid;
+}
+
+/*telephone wire */
+.wire {
+    width: 100vw;
+    height: 5px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    left: 0px;
+    top: 140px;
+}
+
+.bird {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 3;
+}
+
+/* squirrel style */
+.squirrel-body{
+    padding:0;
+    margin:0;
+    position:absolute;
+    background-color: white;
+}
+
+.weed {
+
+    padding: 0;
+    margin: 0;
+    position: absolute;
+
+
+}
